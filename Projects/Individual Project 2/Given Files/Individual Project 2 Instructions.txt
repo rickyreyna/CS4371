@@ -1,0 +1,39 @@
+!!! This is an INDIVIDUAL project. Submit your project report as one file (word or pdf) in Canvas by 5pm, May 5. !!!
+
+====== Project Description ======
+
+The project is to crack a cipher text, which was encrypted using the Vigènere Cipher. The cipher is described in the lecture. You can also find many tutorials and examples online. A subtle difference is that the cipher uses 27 characters (instead of 26) in clear text, cipher text and key. The encryption E is c=(m+k)%27. The decryption D is m=(27+c-k)%27.
+
+The characters include the upper case 'A' to 'Z' and the space ' '. 'A' is equivalent to 0. 'B' is equivalent to 1. ... 'Z' is equivalent to 25. And, the space ' ' is equivalent to 26.
+
+For example, if the clear text is "HELLO WORLD" and the key is "ABC", then the cipher text is "HFNLPBWPTLE".
+
+The cipher text of the project is in cipher.txt. The cipher text is only ONE line of characters. Please follow the cracking approach in the lecture to find the key. The key length is smaller than 10.
+
+You need to develop a program(s) in C/C++, Python, Java, Matlab, or R to automate the crypto-analysis. If you 
+
+Manual analysis (such as using Excel) will not be counted towards your project grade.
+
+====== Report and Grading ======
+
+The score of the project is 10 points.
+
+Your report should include what you did and the results you obtained in the four steps below.
+
+Step 1: You will get 2 points, if you are able to do the analysis on repeating patterns in the cipher text and do factorizing to guess the possible size of keys. Show a screenshot of the repeating patterns when running your analysis program.
+
+Step 2: After step 1, you will get 2 more points, if you are able to divide the cipher text into groups based on the guessed key size, do the 1-gram character analysis for all groups, and then guess the possible key characters for the groups. Show a screenshot of the cipher text groups when running your analysis program.
+
+Step 3: After step 2, you will get 2 more points, if you are able to guess at least two correct key characters and crack the corresponding 2 groups of the cipher text. Show a screenshot of the key characters when running your analysis program.
+
+Step 4: After step 3, you will get 2 more points, if you are able to find the correct key and the clear text. Show a screenshot of the clear text when running your analysis program.
+
+Step 5: Attach the source code of your program at the end of your report to get 2 more points.
+
+You don't need to include anything for introduction or conclusion in your report.
+
+Have fun!
+Qijun
+
+
+
